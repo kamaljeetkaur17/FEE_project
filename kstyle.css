@@ -1,0 +1,103 @@
+*{
+    margin: 0vh;
+    padding:0vh;
+  }
+  body{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #d3d3d3;
+    width: 50%;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #FDDD05;
+    width: 50%;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    font-family:'Open Sans';font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 280px;
+    margin-top: -16%;
+    border-radius: 2%;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-top: 80px;
+    padding: 8px;
+    border-radius:2%;
+    font-size: large;
+    background-color: #302c2c;
+    color: white;
+    width: 40%;
+    transition: 0.2s;
+  }
+  
+  button:hover{
+    color: #b3cf32;
+  }
+
+  button:active{
+    background-color: #b3cf32;
+    border: 1px #000000 solid;
+  }
+  .emailbtn {
+      margin-top: 40px;
+      padding: 8px;
+      margin-bottom: 40px;
+      border-radius:2%;
+      font-size: large;
+      background-color: #302c2c;
+      color: white;
+      width: 68%;
+  }
+
+.social-icon {
+  color: #302c2c;
+  transition: 0.2s;
+  text-decoration: none;
+  padding: 8px;
+  
+}
+
+.social-icon:hover {
+  color: #b3cf32;
+}
+
+p {
+  color: #302c2c;
+}
+
+h2 {
+  color: #302c2c;
+}
+

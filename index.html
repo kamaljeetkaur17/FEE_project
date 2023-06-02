@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select Your Profession</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Select Your Profession</h1>
+		<form onsubmit="showProfile(event)" target="_blank">
+			<div class="selector">
+				<select id="profession" name="profession">
+					<option value="" disabled selected>Select your profession</option>
+					<option value="Web-Designer">Web Designer</option>
+					<option value="Ui-Ux">UI/UX Designer</option>
+					<option value="Competitive-Programmer">Competitive Programmer</option>
+					<option value="Data-Scientist">Data Scientist</option>
+					<option value="App-Developer">App Developer</option>
+					<option value="All">All</option>
+				</select>
+				<button type="submit">Show Profile</button>
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
